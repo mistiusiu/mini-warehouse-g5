@@ -1,5 +1,27 @@
+LOAD DATA INFILE 'dim_date.csv'
+INTO TABLE dim_date
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
 
-COPY dim_date FROM '/path/to/dim_date.csv' DELIMITER ',' CSV HEADER;
-COPY dim_product FROM '/path/to/dim_product.csv' DELIMITER ',' CSV HEADER;
-COPY dim_store FROM '/path/to/dim_store.csv' DELIMITER ',' CSV HEADER;
-COPY fact_sales FROM '/path/to/fact_sales.csv' DELIMITER ',' CSV HEADER;
+LOAD DATA INFILE 'dim_product.csv'
+INTO TABLE dim_product
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA INFILE 'dim_store.csv'
+INTO TABLE dim_store
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA INFILE 'fact_sales.csv'
+INTO TABLE fact_sales
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
