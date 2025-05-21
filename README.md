@@ -21,6 +21,7 @@ This project builds a mini data warehouse for a fictional retail company to anal
 ## Team Members
 
 - Misati Nyambane (@mistiusiu)
+- Justice Chawanda (jpchawanda1)
 
 ## License
 
