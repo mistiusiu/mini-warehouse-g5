@@ -24,6 +24,8 @@ This project builds a mini data warehouse for a fictional retail company to anal
 - Justice Chawanda (@jpchawanda1)
 - Samuel Abrha (@samabr)
 - Paul Mbuvi (@paulmbuvi)
+- Cynthia Gathogo (@cngathogo)
+- Ambachow Kahsay (@aykahsay)
 
 ## License
 
