@@ -24,7 +24,7 @@ This project builds a mini data warehouse for a fictional retail company to anal
 ## Team Members
 
 - Misati Nyambane (@mistiusiu) - 670145
-- Justice Chawanda (@jpchawanda1)
+- Justice Chawanda (@jpchawanda1) - 670444
 - Samuel Abrha (@samabr)
 - Paul Mbuvi (@paulmbuvi)
 - Cynthia Gathogo (@cngathogo)
