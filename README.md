@@ -26,7 +26,7 @@ This project builds a mini data warehouse for a fictional retail company to anal
 - Misati Nyambane (@mistiusiu) - 670145
 - Justice Chawanda (@jpchawanda1) - 670444
 - Samuel Abrha (@samabr)
-- Paul Mbuvi (@paulmbuvi)
+- Paul Mbuvi (@paulmbuvi) - 669984
 - Cynthia Gathogo (@cngathogo)
 - Ambachow Kahsay (@aykahsay)
 
