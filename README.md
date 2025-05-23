@@ -28,7 +28,7 @@ This project builds a mini data warehouse for a fictional retail company to anal
 - Samuel Abrha (@SamAbr) - 670533
 - Paul Mbuvi (@paulmbuvi) - 669984
 - Cynthia Gathogo (@cngathogo)- 668745
-- Ambachow Kahsay (@aykahsay)
+- Ambachow Kahsay (@aykahsay)-  670550
 
 ## License
 
