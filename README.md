@@ -46,7 +46,7 @@ This project builds a **mini data warehouse** for a fictional retail company to 
    - [Revenue by Category](solutions/Total%20Revenue%20By%20Category.csv)
 
 5. **Reflection & Discussion**  
-   See: [Part 5.docx](solutions/Part%205.docx) | [Part 5.pdf](solutions/Part%205.pdf)
+   See: [Part 5.docx](solutions/Part%205.pdf) | [Part 5.pdf](solutions/Part%205.docx)
 
 ---
 
