@@ -22,13 +22,12 @@ This project builds a mini data warehouse for a fictional retail company to anal
 5. Save each query result in a CSV file.
 
 ## Team Members
-
-- Misati Nyambane (@mistiusiu) - 670145
-- Justice Chawanda (@jpchawanda1) - 670444
-- Samuel Abrha (@SamAbr) - 670533
-- Paul Mbuvi (@paulmbuvi) - 669984
-- Cynthia Gathogo (@cngathogo)- 668745
-- Ambachow Kahsay (@aykahsay)-  670550
+- [Misati Nyambane](https://github.com/mistiusiu) - 670145  
+- [Justice Chawanda](https://github.com/jpchawanda1) - 670444  
+- [Samuel Abrha](https://github.com/SamAbr) - 670533  
+- [Paul Mbuvi](https://github.com/paulmbuvi) - 669984  
+- [Cynthia Gathogo](https://github.com/cngathogo) - 668745  
+- [Ambachow Kahsay](https://github.com/aykahsay) - 670550
 
 ## License
 
