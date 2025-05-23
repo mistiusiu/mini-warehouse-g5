@@ -4,6 +4,30 @@ This project builds a **mini data warehouse** for a fictional retail company to 
 
 ---
 
+
+## 📊 Schema Overview
+
+The warehouse follows a **Star Schema**:
+      ### 📊 Star Schema Diagram
+
+```
+               +-------------+
+               |  dim_date   |
+               +-------------+
+                     |
+                     |
++-------------+      |      +-------------+
+| dim_store   |------+------| dim_product |
++-------------+             +-------------+
+         \                       /
+          \                     /
+           \                   /
+            +-----------------+
+            |   fact_sales    |
+            +-----------------+
+```
+
+
 ## 📂 Project Structure
 
 | File/Folder | Description |
@@ -50,29 +74,6 @@ This project builds a **mini data warehouse** for a fictional retail company to 
 
 ---
 
-## 📊 Schema Overview
-
-The warehouse follows a **Star Schema**:
-      ### 📊 Star Schema Diagram
-
-```
-               +-------------+
-               |  dim_date   |
-               +-------------+
-                     |
-                     |
-+-------------+      |      +-------------+
-| dim_store   |------+------| dim_product |
-+-------------+             +-------------+
-         \                       /
-          \                     /
-           \                   /
-            +-----------------+
-            |   fact_sales    |
-            +-----------------+
-```
-
-  
 
 ## 👥 Team Members
 
