@@ -70,7 +70,7 @@ The warehouse follows a **Star Schema**:
    - [Revenue by Category](solutions/Total%20Revenue%20By%20Category.csv)
 
 5. **Reflection & Discussion**  
-   See: [Part 5.docx](solutions/Part%205.pdf) | [Part 5.pdf](solutions/Part%205.docx)
+   See: [Part 5.pdf](solutions/Part%205.pdf) | [Part 5.docx](solutions/Part%205.docx)
 
 ---
 
