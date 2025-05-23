@@ -3,6 +3,26 @@
 This project builds a **mini data warehouse** for a fictional retail company to analyze sales performance across products, stores, and time periods. Developed as part of the **DSA 2040A** course — *Course Instructor: [Austin Owuor](https://github.com/austinowuor)* — the project follows a **star schema** design and leverages both PostgreSQL and MySQL for data ingestion and analysis.
 
 ---
+## 🚩 Prerequisites
+
+Before you start, make sure you have the following installed:
+
+- PostgreSQL (version X.X or higher) or MySQL (version X.X or higher)  
+- Git  
+- SQL client tools (e.g., pgAdmin, MySQL Workbench, or command line)  
+- Python 3 (optional, if you want to run scripts)
+
+## 📥 Installation & Setup
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/mistiusiu/mini-warehouse-g5.git
+cd mini-warehouse-g5
+```
+
+
+---
 
 
 ## 📊 Schema Overview
@@ -74,6 +94,8 @@ The warehouse follows a **Star Schema**:
 
 ---
 
+## 🤝 Contributing
+This project was developed by the team below as part of the course requirements. Contributions from outside collaborators are welcome via pull requests — please fork the repository and submit your changes for review.
 
 ## 👥 Team Members
 
@@ -96,4 +118,5 @@ Reference: [Data_Warehousing_LAB DSA 2040A.pdf](Data_Warehousing_LAB%20DSA%20204
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-
+---
+Thank you for checking out our Mini Retail Data Warehouse project!
