@@ -3,26 +3,6 @@
 This project builds a **mini data warehouse** for a fictional retail company to analyze sales performance across products, stores, and time periods. Developed as part of the **DSA 2040A** course — *Course Instructor: [Austin Owuor](https://github.com/austinowuor)* — the project follows a **star schema** design and leverages both PostgreSQL and MySQL for data ingestion and analysis.
 
 ---
-## 🚩 Prerequisites
-
-Before you start, make sure you have the following installed:
-
-- PostgreSQL (version X.X or higher) or MySQL (version X.X or higher)  
-- Git  
-- SQL client tools (e.g., pgAdmin, MySQL Workbench, or command line)  
-- Python 3 (optional, if you want to run scripts)
-
-## 📥 Installation & Setup
-
-1. **Clone the repository**
-
-```bash
-git clone https://github.com/mistiusiu/mini-warehouse-g5.git
-cd mini-warehouse-g5
-```
-
-
----
 
 
 ## 📊 Schema Overview
@@ -71,6 +51,23 @@ The warehouse follows a **Star Schema**:
 
 ## 🚀 How to Use
 
+### 🚩 Prerequisites
+
+Before you begin, ensure your system meets the following requirements:
+
+#### 🖥️ For Windows
+- **PostgreSQL** version **16.0+** ([Download](https://www.postgresql.org/download/windows/))
+- **MySQL** version **8.0.34+** ([Download](https://dev.mysql.com/downloads/installer/))
+- **Git for Windows** ([Download](https://git-scm.com/download/win))
+- **pgAdmin** or **MySQL Workbench**
+- (Optional) **Python 3.x**
+
+#### 🐧 For Ubuntu/Linux
+```bash
+sudo apt update
+sudo apt install postgresql mysql-server git python3
+```
+Then,
 1. **Initialize Database**  
    Run [setup.sql](data/setup.sql) to set up the database and student credentials.
 
