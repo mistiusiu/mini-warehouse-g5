@@ -1,6 +1,6 @@
 # 🛒 Mini Retail Data Warehouse – DSA 2040A Lab
 
-This project builds a **mini data warehouse** for a fictional retail company to analyze sales performance across products, stores, and time periods. Developed as part of the **DSA 2040A** course — *Course Instructor: [Austin Owuor](https://github.com/austinowuor)* — the project follows a **star schema** design and leverages SQL for data ingestion and analysis.
+This project builds a **mini data warehouse** for a fictional retail company to analyze sales performance across products, stores, and time periods. Developed as part of the **DSA 2040A** course — *Course Instructor: [Austin Owuor](https://github.com/austinowuor)* — the project follows a **star schema** design and leverages both PostgreSQL and MySQL for data ingestion and analysis.
 
 ---
 
