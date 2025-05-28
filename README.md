@@ -1,6 +1,6 @@
 # 🛒 Mini Retail Data Warehouse – DSA 2040A Lab
 
-This project builds a **mini data warehouse** for a fictional retail company to analyze sales performance across products, stores, and time periods. Developed as part of the **DSA 2040A** course — *Course Instructor: [Austin Owuor](https://github.com/austinowuor)* — the project follows a **star schema** design and leverages both PostgreSQL and MySQL for data ingestion and analysis.
+This project builds a **mini data warehouse** for a fictional retail company to analyze sales performance across products, stores, and time periods. Developed as part of the **DSA 2040A** course — *Course Instructor: [Austin Owuor](https://github.com/austinowuor)* — the project follows a **star schema** design and leverages MySQL for data ingestion and analysis.
 
 ---
 
@@ -8,7 +8,8 @@ This project builds a **mini data warehouse** for a fictional retail company to 
 ## 📊 Schema Overview
 
 The warehouse follows a **Star Schema**:
-      ### 📊 Star Schema Diagram
+
+### 📊 Star Schema Diagram
 
 ```
                +-------------+
@@ -17,11 +18,11 @@ The warehouse follows a **Star Schema**:
                      |
                      |
 +-------------+      |      +-------------+
-| dim_store   |------+------| dim_product |
-+-------------+             +-------------+
-         \                       /
-          \                     /
-           \                   /
+| dim_store   |      |      | dim_product |
++-------------+      |      +-------------+
+         \           |           /
+          \          |          /
+           \         |         /
             +-----------------+
             |   fact_sales    |
             +-----------------+
@@ -34,7 +35,6 @@ The warehouse follows a **Star Schema**:
 |-------------|-------------|
 | [schema.sql](data/schema.sql) | Creates dimension and fact tables (Star Schema) |
 | [setup.sql](data/setup.sql) | Initializes database and student number |
-| [load_data.sql](data/load_data.sql) | Loads data using PostgreSQL-compatible commands |
 | [load_data_mysql.sql](data/load_data_mysql.sql) | MySQL-specific data loading script |
 | [queries.sql](data/queries.sql) | Contains business intelligence queries |
 | [dim_date.csv](data/dim_date.csv) | Dimension: Dates |
@@ -56,28 +56,28 @@ The warehouse follows a **Star Schema**:
 Before you begin, ensure your system meets the following requirements:
 
 #### 🖥️ For Windows
-- **PostgreSQL** version **16.0+** ([Download](https://www.postgresql.org/download/windows/))
+
 - **MySQL** version **8.0.34+** ([Download](https://dev.mysql.com/downloads/installer/))
 - **Git for Windows** ([Download](https://git-scm.com/download/win))
-- **pgAdmin** or **MySQL Workbench**
-- (Optional) **Python 3.x**
+- **Beekeeper Studio**
 
 #### 🐧 For Ubuntu/Linux
+
 ```bash
 sudo apt update
-sudo apt install postgresql mysql-server git python3
+sudo apt install mysql-server git
 ```
+
 Then,
 1. **Initialize Database**  
-   Run [setup.sql](data/setup.sql) to set up the database and student credentials.
+   Run [setup.sql](data/setup.sql) to set up the database and user credentials.
 
-2. **Create Schema**  
+2. **Create Schema**   
    Run [schema.sql](data/schema.sql) to define the star schema tables.
 
 3. **Load Data**  
-   Load CSV data using either:
-   - [load_data.sql](data/load_data.sql) for PostgreSQL
-   - [load_data_mysql.sql](data/load_data_mysql.sql) for MySQL
+   Load CSV data using:
+   - [load_data_mysql.sql](data/load_data_mysql.sql)
 
 4. **Run Business Queries**  
    Execute [queries.sql](data/queries.sql) to analyze:
@@ -92,6 +92,7 @@ Then,
 ---
 
 ## 🤝 Contributing
+
 This project was developed by the team below as part of the course requirements. Contributions from outside collaborators are welcome via pull requests — please fork the repository and submit your changes for review.
 
 ## 👥 Team Members
