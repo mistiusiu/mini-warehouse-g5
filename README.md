@@ -97,12 +97,12 @@ This project was developed by the team below as part of the course requirements.
 
 ## 👥 Team Members
 
-- [Misati Nyambane](https://github.com/mistiusiu) – 670145  
-- [Justice Chawanda](https://github.com/jpchawanda1) – 670444  
-- [Samuel Abrha](https://github.com/SamAbr) – 670533  
-- [Paul Mbuvi](https://github.com/paulmbuvi) – 669984  
-- [Cynthia Gathogo](https://github.com/cngathogo) – 668745  
-- [Ambachow Kahsay](https://github.com/aykahsay) – 670550
+- [Misati Nyambane](https://github.com/mistiusiu) – 145  
+- [Justice Chawanda](https://github.com/jpchawanda1) – 444  
+- [Samuel Abrha](https://github.com/SamAbr) – 533  
+- [Paul Mbuvi](https://github.com/paulmbuvi) – 69984  
+- [Cynthia Gathogo](https://github.com/cngathogo) – 68745  
+- [Ambachow Kahsay](https://github.com/aykahsay) – 550
 
 ---
 
